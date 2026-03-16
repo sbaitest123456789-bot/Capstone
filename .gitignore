@@ -1,0 +1,17 @@
+# OSが勝手に作る見えないファイル
+.DS_Store
+
+# 環境変数（APIキーなどが入った絶対に秘密のファイル）
+.env
+
+# Python関連の重いファイルや一時ファイル
+__pycache__/
+venv/
+*.pyc
+
+# Node.js（フロントエンド）の重いファイル
+node_modules/
+.next/
+
+# ベクトルデータベースの実データ
+chroma_db/
