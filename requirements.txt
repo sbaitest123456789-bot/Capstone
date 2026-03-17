@@ -11,3 +11,6 @@ rank_bm25
 presidio-analyzer
 presidio-anonymizer
 spacy
+deepeval
+pytest
+httpx

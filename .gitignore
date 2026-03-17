@@ -1,17 +1,22 @@
 # OSが勝手に作る見えないファイル
+# Invisible Files Automatically Created by the OS
 .DS_Store
 
 # 環境変数（APIキーなどが入った絶対に秘密のファイル）
+# Environment Variables (A strictly confidential file containing API keys, etc.)
 .env
 
 # Python関連の重いファイルや一時ファイル
+# Heavy Python-related files and temporary files
 __pycache__/
 venv/
 *.pyc
 
 # Node.js（フロントエンド）の重いファイル
+# Large Files in Node.js (Frontend)
 node_modules/
 .next/
 
 # ベクトルデータベースの実データ
+# Real-World Data for Vector Databases
 chroma_db/
